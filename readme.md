@@ -1,3 +1,25 @@
+# FastAPI Microservice - Day 1
+
+## Description
+Ce projet est une architecture microservices contenant un frontend, un backend, une base de données PostgreSQL, et des outils comme RabbitMQ, Nginx, Locust et Weave Scope.
+
+## Démarrage
+1. Clonez le dépôt :
+   git clone <repository-url>
+   cd <repository-folder>
+
+
+2. Démarrez les services :
+   docker-compose up -d
+
+3. Accédez aux services :
+   Frontend : http://localhost
+   Backend : http://localhost:8000
+   Swagger Docs : http://localhost:8000/docs
+   pgAdmin : http://localhost:5050
+
+
+
 # FastAPI Microservice - Day 2
 
 ## Description
@@ -143,11 +165,4 @@ jobs:
    ```
 5. Ouvrez une pull request sur le dépôt principal.
 
-## Licence
-
-Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le distribuer.
-
----
-
-Avec ce guide, vous devriez avoir toutes les informations pour comprendre, utiliser et contribuer à ce projet. Bon développement ! 🚀
 
